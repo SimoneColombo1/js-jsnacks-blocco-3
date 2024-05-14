@@ -20,9 +20,12 @@ Stampiamo poi gli ultimi 5 elementi dell'Array
 
 ---------------------------------------------Svolgimento Tutti Frutti-----------------------------------------------
 
-Creo un array con all'interno i frutti citati nella traccia, inserisco tramite push la pesca nell'array e creo una variabile cocomero, poi creo un if else e uso filter per verificare se cocomero è presente.
+Creo un array con all'interno i frutti citati nella traccia, inserisco tramite push la pesca nell'array ---?---
 
 
+----------------------------------------------Svolgimento coda dell'array-------------------------------------------
+
+dichiaro un array vuoto e un prompt per far inserire all'utrente un numero, poi creo un ciclo for per inserire n ementi tanti quanti quelli scelti dall'utente poi creo un if dove se il numero scelto dall'utente è maggiore di 5 stampo gli ultimi 5 valori altrimenti stampo numero troppo basso reinserirlo.
 
 
 
