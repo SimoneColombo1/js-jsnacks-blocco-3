@@ -5,11 +5,12 @@ if(arrayA.length < arrayB.length){
     while (arrayA.length < arrayB.length){
   
     arrayA.push(Number.parseInt(Math.random()*10));
-}}
+}
+}
 else{
     while (arrayB.length < arrayA.length){
   
-        arrayA.push(Number.parseInt(Math.random()*10));
+        arrayB.push(Number.parseInt(Math.random()*10));
 }
 
 
