@@ -19,8 +19,7 @@ generando tanti numeri casuali (compresi nell'intervallo da 1 a 100) per quanti 
 Stampiamo poi gli ultimi 5 elementi dell'Array
 
 ---------------------------------------------Svolgimento Tutti Frutti-----------------------------------------------
-
-Creo un array con all'interno i frutti citati nella traccia, inserisco tramite push la pesca nell'array ---?---
+Creo un array con all'interno i frutti citati nella traccia, inserisco tramite push la pesca nell'array, creo un ciclo for in cui dichiaro una variabile con valore false poi creo un if per trovare il cocomero se lo trova la variabile diventa true, fuori dal ciclo for creo un if else se trovata è true stampo trovato altrimenti stampo non trovato.
 
 
 ----------------------------------------------Svolgimento coda dell'array-------------------------------------------
