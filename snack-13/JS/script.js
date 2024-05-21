@@ -4,6 +4,6 @@ console.log(numero);
 function reverse(numeroA){
   
 
-    numeroA= numeroA.reverse;
+   
 return numeroA
 }
