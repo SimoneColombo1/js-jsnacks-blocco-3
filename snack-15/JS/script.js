@@ -10,4 +10,4 @@ let Nutente= Number.parseInt (prompt('inserisci il peso della palla'));
 
 palla.peso= Nutente;
 
-console.log(palla.peso);
+console.log(palla.Peso);
