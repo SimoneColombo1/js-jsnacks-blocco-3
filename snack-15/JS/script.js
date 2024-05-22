@@ -8,6 +8,6 @@ let palla= {
 let Nutente= Number.parseInt (prompt('inserisci il peso della palla')); 
 
 
-palla.peso= Nutente;
+palla.Peso= Nutente;
 
 console.log(palla.Peso);
