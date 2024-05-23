@@ -42,3 +42,19 @@ cognome: "labambina",
 eta:"4"
 },
 ];
+
+
+let guida=[];
+//< ciclo for per inserire gli elementi nell'array guida
+for (let i=0; i<persone.length; i++){
+if(persone[i].eta<18){
+guida.push(persone[i],"non può guidare")
+
+} 
+else{
+    guida.push(persone[i],"può guidare")
+}
+
+    
+}
+console.log(guida);
