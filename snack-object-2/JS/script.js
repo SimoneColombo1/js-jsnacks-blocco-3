@@ -51,10 +51,12 @@ if(persone[i].eta<18){
 guida.push(persone[i],"non può guidare")
 
 } 
-else{
+else if(persone[i].eta<80){
     guida.push(persone[i],"può guidare")
 }
-
+else{
+    guida.push(persone[i],"non può guidare")
+}
     
 }
 console.log(guida);
