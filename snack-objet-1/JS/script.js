@@ -50,21 +50,28 @@ let automobili= [
     modello:'manontornai',
     alimentazione: 'gpl'
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]
+
+//> ciclo for per dividere gli array
+let benzina=[];
+let diesel=[];
+let resto=[];
+for(let i=0; i< automobili.length; i++){
+let singole= automobili[i];
+if(singole.alimentazione=="benzina"){
+benzina.push(singole);
+
+}
+else if(singole.alimentazione=="diesel"){
+   diesel.push(singole);
+
+}
+else{
+   resto.push(singole);
+ 
+}
+
+}
+console.log(resto);
+console.log(diesel);
+console.log(benzina);
