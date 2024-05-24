@@ -49,3 +49,16 @@
 ]
 
 
+
+
+//> calcolo del peso delle zucchine
+
+const PesoZucchine = Zucchine.map((peso)=>{
+
+  return peso + peso;
+
+
+});
+console.log(PesoZucchine);
+
+//<
